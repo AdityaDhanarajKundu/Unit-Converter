@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unit Converter</title>
     <link rel="icon" href="icons8-idea-32.png" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <main id="container">
@@ -12,6 +13,25 @@
             <h1>Unit Conversion</h1>
             <input type="text" id="text" placeholder="0" name="disp_text">
         </div>
+        <div class="box">
+            <div id="length-box">
+               <h2>Length (Meter/Feet)</h2>
+               <p id="length">0 meters = 0.000 feet | 0 feet = 0.000 meters</p> 
+            </div>
+            <div id="volume-box">
+                <h2>Volume (Litres/Gallons)</h2>
+                <p id="volume">0 litres = 0.000 gallons | 0 gallons = 0.000 litres</p>        
+            </div>
+            <div id="mass-box">
+                <h2>Mass (Kilogram/Pounds)</h2>
+                <p id="mass">0 kilogram = 0.000 pounds | 0 pounds = 0.000 kilogram</p>
+            </div>
+            <div id="area-box">
+                <h2>Area (Sq.Meter/Sq.Feet)</h2>
+                <p id="area">0 Sq.Meter = 0.000 Sq.Feet | 0 Sq.Feet = 0.000 Sq.Meter</p>
+            </div>
+        </div>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>
